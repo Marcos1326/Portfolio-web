@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../font/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Myfont';
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+header ul li.activo a{
+    color: #00A2FF;
+}
+header ul li:hover a{
+    color: #00A2FF;
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+#home .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 650px;
+    z-index: 10;
+}
+
+#home .content h2{
+    position: relative;
+    font-size: 4.5em;
+    color: #00A2FF;
+}
+
+#home .content p{
+    position: relative;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
