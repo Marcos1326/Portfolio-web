@@ -10,6 +10,7 @@
     font-family: 'Myfont';
 }
 
+/* navbar */
 header{
     position: fixed;
     top: 0;
@@ -54,6 +55,7 @@ header ul li:hover a{
     color: #00A2FF;
 }
 
+/* Home */
 #home{
     position: relative;
     width: 100%;
@@ -85,4 +87,51 @@ header ul li:hover a{
     color: #fff;
     font-size: 1.2em;
     line-height: 1.6em;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    font-size: 1.25em;
+    max-width: 200px;
+    background-color: #00A2FF;
+    color: #222;
+    text-align: center;
+    padding: 18px 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#home .imgPerfil{
+    position: absolute;
+    bottom: 15px;
+    right: 100px;
+    max-height: 90vh;
+    border-radius: 100%;
+}
+
+/* Servicios */
+#servicios{
+    position: relative;
+    background-color: #34353a;
+    min-height: 100vh;
+    padding: 120px 100px;
+}
+
+/* porfolio */
+#portfolio{
+    position: relative;
+    background-color: #34353a;
+    min-height: 100vh;
+    padding: 120px 100px;
+}
+
+/* contacto */
+#contacto{
+    position: relative;
+    background-color: #34353a;
+    min-height: 100vh;
+    padding: 120px 100px;
 }
