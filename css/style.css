@@ -640,3 +640,66 @@ header ul li:hover a{
         padding: 100px 50px;
     }
 }
+
+@media (max-width: 350px){
+    #home .content h2{
+        font-size: 2em;
+    }
+    #home .content p{
+        font-size: 0.7em;
+    }
+    #habilidades{
+        padding: 100px 50px;
+    }
+    #habilidades .txt h2{
+        font-size: 1.8em;
+    }
+    #habilidades .txt p{
+        font-size: 0.8em;
+    }
+    .containerHabilidadCard{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-top: -80px;
+    }
+    .containerHabilidadCard .cardHabilidad{
+        position: relative;
+        width: 150px;
+        height: 180px;
+    }
+    #proyectos{
+        padding: 100px 50px;
+    }
+    #proyectos .txt h2{
+        font-size: 1.8em;
+    }
+    #proyectos .txt h2 p{
+        font-size: 0.8em;
+    }
+    .containerProyectoCard .cardProyecto{
+        width: 300px;
+        height: 400px;        
+    }
+    #contacto{
+        padding: 100px 50px;
+    }
+    .perfil{
+        width: 300px;
+        height: 280px;
+    }
+    .perfil::before{
+        position: absolute;
+        inset: -10px 120px;
+    }
+    .infoPerfil h2{
+        font-size: 1em;
+    }
+    .infoPerfil p{
+        font-size: 0.7em;
+    }
+    .enlacesPerfil a{
+        width: 50px;
+        font-size: 0.6em;
+    }
+}
