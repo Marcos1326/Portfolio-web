@@ -122,12 +122,26 @@ header ul li:hover a{
     padding: 120px 100px;
 }
 
-.txtServicios{
-    text-align: center;
+.txt{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 40px;
-    font-weight: 700;
+}
+
+.txt h2{
+    font-size: 3em;
     color: #fff;
-    font-size: 2em;
+}
+
+.txt p{
+    max-width: 700px;
+    text-align: center;
+    color: #aaa;
+    font-size: 1.1em;
 }
 
 .containerCard{
@@ -146,6 +160,7 @@ header ul li:hover a{
     background-color: #2a2a2a;
     display: flex;
     align-items: center;
+    border-radius: 20%;
     justify-content: center;
 }
 
