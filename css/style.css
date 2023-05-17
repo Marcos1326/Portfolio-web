@@ -546,18 +546,37 @@ header ul li:hover a{
     }
     #habilidades{
         padding: 100px 50px;
+        grid-template-columns: repeat(2,1fr);
     }
     .containerHabilidadCard{
         padding: 100px 50px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    }
+    #proyectos{
+        padding: 100px 50px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .containerProyectoCard{
+        margin-top: 20px;
+    }
+    #contacto{
+        padding: 100px 50px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 700px){
+    #home .content h2{
+        font-size: 3em;
+    }
+    #habilidades{
+        padding: 100px 50px;
     }
     #proyectos{
         padding: 100px 50px;
     }
-    .containerProyectoCard{
-        margin-top: 20px;
+    .containerProyectoCard .cardProyecto{
+        width: 300px;
+        height: 400px;        
     }
     #contacto{
         padding: 100px 50px;
