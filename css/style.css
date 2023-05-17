@@ -104,6 +104,7 @@ header ul li:hover a{
     letter-spacing: 0.05em;
     text-decoration: none;
     margin-top: 10px;
+    border-radius: 20px;
 }
 
 #home .imgPerfil{
@@ -150,12 +151,12 @@ header ul li:hover a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 .containerHabilidadCard .cardHabilidad{
     position: relative;
-    width: 220px;
+    width: 200px;
     height: 250px;
     background-color: #2a2a2a;
     display: flex;
@@ -509,5 +510,56 @@ header ul li:hover a{
 
 .enlacesPerfil a:hover{
     transition: 0.5s;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    background: #00A2FF;
+}
+
+/* Parte responsive de la web */
+@media (max-width: 900px){
+    header{
+        padding: 20px 50px;
+    }
+    #home{
+        padding: 150px 50px;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    #home .content h2{
+        font-size: 4em;
+    }
+    .btn{
+        max-width: 160px;
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+    #home .imgPerfil{
+        position: absolute;
+        height: 50vh;
+        right: 50;
+    }
+    .txt{
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .txt h2{
+        font-size: 2em;
+    }
+    #habilidades{
+        padding: 100px 50px;
+    }
+    .containerHabilidadCard{
+        padding: 100px 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #proyectos{
+        padding: 100px 50px;
+    }
+    .containerProyectoCard{
+        margin-top: 20px;
+    }
+    #contacto{
+        padding: 100px 50px;
+    }
 }
