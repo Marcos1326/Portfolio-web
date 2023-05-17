@@ -176,6 +176,18 @@ header ul li:hover a{
     stroke: var(--clr);
     stroke-dasharray: 440;
     stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .punto{
@@ -205,6 +217,41 @@ header ul li:hover a{
     height: 10px;
     background: var(--clr);
     border-radius: 50%;
+}
+
+.numero{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+.numero h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em
+}
+
+.numero h2 span{
+    font-weight: 300;
+    color: #fff;
+    font-size: 0.6em;
+}
+
+.numero p{
+    font-weight: 300;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 /* porfolio */
