@@ -122,6 +122,62 @@ header ul li:hover a{
     padding: 120px 100px;
 }
 
+.txtServicios{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2em;
+}
+
+.containerCard{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.containerCard .card{
+    position: relative;
+    width: 220px;
+    height: 250px;
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCard .card .porcentage{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+.containerCard .card .porcentage svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.containerCard .card .porcentage svg circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+    transform: translate(5px,5px);
+}
+
+.containerCard .card .porcentage svg circle:nth-child(2){
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+}
+
 /* porfolio */
 #portfolio{
     position: relative;
