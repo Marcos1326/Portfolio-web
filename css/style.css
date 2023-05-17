@@ -641,7 +641,7 @@ header ul li:hover a{
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 550px){
     #home .content h2{
         font-size: 2em;
     }
@@ -686,7 +686,7 @@ header ul li:hover a{
     }
     .perfil{
         width: 300px;
-        height: 280px;
+        height: 300px;
     }
     .perfil::before{
         position: absolute;
