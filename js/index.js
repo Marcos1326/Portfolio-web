@@ -1,3 +1,4 @@
+// Inicio cambio de navbar
 let list = document.querySelectorAll('.nav li');
 function active(){
     list.forEach((i) =>
@@ -12,12 +13,14 @@ let header = document.querySelector('header');
 menuNavbar.onclick = function(){
     header.classList.toggle('active')
 }
+// Fin cambio de navbar
 
+// reset de la pag en la section habilidades
 document.getElementById("habilidades").addEventListener("click", function() {
     location.reload();
 });
 
-
+// Inicio Modal
 var modal = document.getElementById("myModal");
 var closeButton = document.getElementsByClassName("close")[0];
 
@@ -30,12 +33,11 @@ document.getElementById("openModalButton").addEventListener("click", function() 
 closeButton.addEventListener("click", function() {
     modal.style.display = "none";
 });
-
 window.addEventListener("click", function(event) {
     if (event.target == modal) {
     modal.style.display = "none";
     }
 });
+// Fin Modal
 
 console.log('---Que haces aqui mirando?---')
-console.log('---Vuelve a la página no hay nada que ver aquí---')

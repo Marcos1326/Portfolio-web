@@ -25,6 +25,7 @@ header{
     backdrop-filter: blur(20px);
 }
 
+/* Logo */
 header .logo{
     position: relative;
     color: #fff;
@@ -33,6 +34,7 @@ header .logo{
     font-size: 2em;
 }
 
+/* menu navbar */
 header ul{
     position: relative;
     display: flex;
@@ -69,6 +71,7 @@ header ul li:hover a{
     padding: 100px;
 }
 
+/* Titulo y descripcion */
 #home .content{
     position: relative;
     display: flex;
@@ -91,13 +94,14 @@ header ul li:hover a{
     line-height: 1.6em;
 }
 
+/* Contáctame */
 .btn{
     position: relative;
     display: inline-block;
     font-size: 1.25em;
     max-width: 200px;
-    background-color: #00A2FF;
-    color: #222;
+    background: linear-gradient(315deg, #00ccff, #d400dc);
+    color: #fff;
     text-align: center;
     padding: 18px 30px;
     font-weight: 700;
@@ -105,8 +109,14 @@ header ul li:hover a{
     text-decoration: none;
     margin-top: 10px;
     border-radius: 20px;
+    transition: 0.5s;
 }
 
+.btn:hover{
+    letter-spacing: 2px;
+}
+
+/* Img home */
 #home .imgPerfil{
     position: absolute;
     bottom: 15px;
@@ -123,6 +133,7 @@ header ul li:hover a{
     padding: 120px 100px;
 }
 
+/* Titulo y descripcion */
 .txt{
     position: relative;
     width: 100%;
@@ -145,6 +156,7 @@ header ul li:hover a{
     font-size: 1.1em;
 }
 
+/* Card Habilidad */
 .containerHabilidadCard{
     position: relative;
     display: flex;
@@ -165,6 +177,7 @@ header ul li:hover a{
     justify-content: center;
 }
 
+/* Porcentaje + color + punto del circulo */
 .containerHabilidadCard .cardHabilidad .porcentage{
     position: relative;
     width: 150px;
@@ -188,6 +201,7 @@ header ul li:hover a{
     transform: translate(5px,5px);
 }
 
+/* animacion */
 .containerHabilidadCard .cardHabilidad .porcentage svg circle:nth-child(2){
     stroke: var(--clr);
     stroke-dasharray: 440;
@@ -235,6 +249,7 @@ header ul li:hover a{
     border-radius: 50%;
 }
 
+/* Text card habilidad */
 .numero{
     position: absolute;
     inset: 0;
@@ -278,6 +293,7 @@ header ul li:hover a{
     padding: 120px 100px;
 }
 
+/* Card proyecto */
 .containerProyectoCard{
         position: relative;
         display: flex;
@@ -288,16 +304,18 @@ header ul li:hover a{
         flex-wrap: wrap;
 }
 
+/* Fondo */
 .containerProyectoCard .cardProyecto{
     position: relative;
     width: 300px;
     height: 400px;
-    background: linear-gradient(#00A2FF, #00A2FF, 30%, #054B73 30%, #054B73);
+    background: linear-gradient(315deg, #00ccff, #d400dc);
     margin: 10px;
     border-radius: 20px;
     overflow: hidden;
 }
 
+/* img de la card */
 .containerProyectoCard .cardProyecto .imgBox{
     position: absolute;
     top: 0;
@@ -342,6 +360,7 @@ header ul li:hover a{
     transform: translateY(0);
 }
 
+/* Text de la tarjeta */
 .containerProyectoCard .cardProyecto .contenidoTarjetaProyecto .detalles{
     display: flex;
     justify-content: center;
@@ -357,11 +376,12 @@ header ul li:hover a{
 }
 
 .containerProyectoCard .cardProyecto .contenidoTarjetaProyecto .detalles span{
-    color: #00A2FF ;
+    color: #000 ;
     font-size: 0.9em;
     font-weight: 700;
 }
 
+/* enlaces de la tarjeta */
 .enlaces{
     position: relative;
     display: flex;
@@ -406,6 +426,7 @@ header ul li:hover a{
     align-items: center;
 }
 
+/* contenedor */
 .perfil{
     position: relative;
     width: 500px;
@@ -415,6 +436,7 @@ header ul li:hover a{
     overflow: hidden;
 }
 
+/* animacion color*/
 .perfil::before{
     content: '';
     position: absolute;
@@ -446,6 +468,7 @@ header ul li:hover a{
     z-index: 1;
 }
 
+/* Nombre + enlaces + img */
 .infoPerfil{
     position: absolute;
     inset: 20px;
@@ -459,6 +482,7 @@ header ul li:hover a{
     flex-direction: column;
 }
 
+/* img del contacto */
 .infoPerfil img{
     position: absolute;
     top: 0;
@@ -475,6 +499,7 @@ header ul li:hover a{
     opacity: 0;
 }
 
+/* titulo */
 .infoPerfil h2{
     position: relative;
     font-size: 1.5em;
@@ -490,6 +515,7 @@ header ul li:hover a{
     margin-bottom: 20px;
 }
 
+/* enlaces */
 .infoPerfil a{
     position: relative;
     padding: 10px 20px;
@@ -514,6 +540,7 @@ header ul li:hover a{
     background: #00A2FF;
 }
 
+/* modal */
 .modal {
     display: none;
     position: fixed;
@@ -535,6 +562,7 @@ header ul li:hover a{
     border-radius: 20px;
 }
 
+/* Titulo modal */
 .modalContent h2{
     position: relative;
     font-size: 2em;
@@ -551,6 +579,7 @@ header ul li:hover a{
     color: #191919;
 }
 
+/* Contenedor enlaces */
 .gridSocial{
     margin-top: 40px;
     gap: 10px;
@@ -560,6 +589,7 @@ header ul li:hover a{
     grid-template-rows: 1fr 1fr;
 }
 
+/* enlaces */
 .social{
     display: flex;
     justify-content:center;
@@ -589,11 +619,13 @@ header ul li:hover a{
     text-decoration: none;
 }
 
+/* icono enlace */
 .iconoRedes{
     width: 80%;
     height: 80%;
 }
 
+/* boton de cerrar modal */
 .close {
     position: relative;
     color: #aaa;
@@ -611,10 +643,13 @@ header ul li:hover a{
 }
 
 /* Parte responsive de la web */
+
+/* Responsive 900px */
 @media (max-width: 900px){
     header{
         padding: 20px 50px;
     }
+    /* Home */
     #home{
         padding: 150px 50px;
         flex-direction: column;
@@ -640,6 +675,7 @@ header ul li:hover a{
     .txt h2{
         font-size: 2em;
     }
+    /* Habilidades */
     #habilidades{
         padding: 100px 50px;
         grid-template-columns: repeat(2,1fr);
@@ -654,6 +690,7 @@ header ul li:hover a{
     .containerProyectoCard{
         margin-top: 20px;
     }
+    /* Contactos */
     #contacto{
         padding: 100px 50px;
         grid-template-columns: repeat(2,1fr);
@@ -663,6 +700,7 @@ header ul li:hover a{
     height: 50%;
     margin-top: 25%;
     }
+    /* Navbar */
     .menuNavbar{
         position: relative;
         width: 30px;
@@ -723,6 +761,7 @@ header ul li:hover a{
     }
 }
 
+/* Responsive 700px */
 @media (max-width: 700px){
     #home .content h2{
         font-size: 3em;
@@ -747,13 +786,16 @@ header ul li:hover a{
     }
 }
 
+/* Responsive 550px */
 @media (max-width: 550px){
+    /* home */
     #home .content h2{
         font-size: 2em;
     }
     #home .content p{
         font-size: 0.7em;
     }
+    /* habilidades */
     #habilidades{
         padding: 100px 50px;
     }
@@ -774,6 +816,7 @@ header ul li:hover a{
         width: 150px;
         height: 180px;
     }
+    /* proyectos */
     #proyectos{
         padding: 100px 50px;
     }
@@ -787,6 +830,7 @@ header ul li:hover a{
         width: 300px;
         height: 400px;        
     }
+    /* contacto */
     #contacto{
         padding: 100px 50px;
     }
@@ -816,6 +860,7 @@ header ul li:hover a{
     }
     .modalContent h2 {
     font-size: 1.8em;
+    width: 5%;
     }
     .iconoRedes {
     width: 50%;
