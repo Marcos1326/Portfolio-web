@@ -36,3 +36,6 @@ window.addEventListener("click", function(event) {
     modal.style.display = "none";
     }
 });
+
+console.log('---Que haces aqui mirando?---')
+console.log('---Vuelve a la página no hay nada que ver aquí---')

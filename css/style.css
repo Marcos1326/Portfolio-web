@@ -811,14 +811,14 @@ header ul li:hover a{
     }
     .modalContent{
     margin-top: 25%;
-    width: 50%;
+    width: 60%;
     height: 50%;
     }
     .modalContent h2 {
     font-size: 1.8em;
     }
     .iconoRedes {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
 }
 }
