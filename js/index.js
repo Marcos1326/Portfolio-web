@@ -12,3 +12,7 @@ let header = document.querySelector('header');
 menuNavbar.onclick = function(){
     header.classList.toggle('active')
 }
+
+document.getElementById("habilidades").addEventListener("click", function() {
+    location.reload();
+});
