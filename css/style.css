@@ -658,6 +658,11 @@ header ul li:hover a{
         padding: 100px 50px;
         grid-template-columns: repeat(2,1fr);
     }
+    .modalContent{
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+    }
     .menuNavbar{
         position: relative;
         width: 30px;
@@ -735,6 +740,11 @@ header ul li:hover a{
     #contacto{
         padding: 100px 50px;
     }
+    .modalContent{
+    margin-top: 25%;
+    width: 50%;
+    height: 50%;
+    }
 }
 
 @media (max-width: 550px){
@@ -789,13 +799,26 @@ header ul li:hover a{
         inset: -10px 120px;
     }
     .infoPerfil h2{
-        font-size: 1em;
+        font-size: 2em;
     }
     .infoPerfil p{
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     .enlacesPerfil a{
-        width: 50px;
-        font-size: 0.6em;
+        width: 55px;
+        font-size: 0.7em;
+        font-weight: 700;
     }
+    .modalContent{
+    margin-top: 25%;
+    width: 50%;
+    height: 50%;
+    }
+    .modalContent h2 {
+    font-size: 1.8em;
+    }
+    .iconoRedes {
+    width: 60%;
+    height: 60%;
+}
 }
