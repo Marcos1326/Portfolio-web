@@ -399,7 +399,6 @@ header ul li:hover a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #3d7199;
     border-radius: 50%;
     font-size: 1.5em;
     text-decoration: none;
@@ -855,7 +854,7 @@ header ul li:hover a{
     }
     .modalContent{
     margin-top: 25%;
-    width: 60%;
+    width: 65%;
     height: 60%;
     }
     .modalContent h2 {
